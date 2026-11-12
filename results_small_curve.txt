@@ -1,0 +1,9 @@
+curve: p = 1048783, q = 1050337 (21 bits)
+S1: N = 600 messages, U = 4 sessions, C = 8 multipliers; expected pairs N^2 U C / q = 11.0
+  plain   : 20 repetitions, mean pairs 12.5, forgeries 78/80, repetitions with a forgery 20/20
+  inverse : 20 repetitions, mean pairs 12.5, forgeries 0/80, repetitions with a forgery 0/20
+S2 (valid signatures / 200): {'P1': 200, 'P2inv': 200, 'both': 200, 'P2': 0, 'direct': 0}
+S3: budget about 2L = 300 group operations and 300 hash queries; L^3 / q = 3.21; pairs against L messages (2L-10) L / q = 0.041
+  P1    : 100 repetitions, mean solutions 3.29, repetitions with a forgery 97/100
+  P2inv : 100 repetitions, mean solutions 3.14, repetitions with a forgery 96/100
+  both  : 100 repetitions, mean solutions 0.03, repetitions with a forgery 3/100

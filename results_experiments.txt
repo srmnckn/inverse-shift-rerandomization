@@ -1,0 +1,2 @@
+Correctness (valid signatures / 50): Xue 50, IMACC 50, inverse shift 50, Lindell 50, Lindell with inverse shift 50
+Raw-signing attack (successful / 50): Xue 50, IMACC 50, inverse shift 0, Lindell 50, Lindell with inverse shift 0
